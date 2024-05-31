@@ -7,6 +7,10 @@
 
     <application>
         <service android:name=".src.BubbleService" />
+        <service
+        android:name=".src.BubbleService"
+        android:exported="true"
+        android:foregroundServiceType="mediaPlayback" />
     </application>
 
 </manifest>
