@@ -6,7 +6,6 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application>
-        <service android:name=".src.BubbleService" />
         <service
         android:name=".src.BubbleService"
         android:exported="true"
